@@ -11,7 +11,7 @@
 <hr>
 
 <?php
-$salario = 1200;
+$salario = 1600;
 
 
 if($salario <1500){
@@ -26,8 +26,10 @@ if($salario <1500){
 
 
 ?>
-<b></b>
-<p><b>Salario:</b><?=$salario?> <b>Novo Salario:</b>  <?=$novoSalario?></p>
+
+<p><b>Salario:</b> R$<?=number_format($salario,2, ',', '.')?> <br>
+
+<b>Novo Salario:</b> R$<?=number_format($novoSalario,2, ',', '.')?></p>
 
 </body>
 </html>
